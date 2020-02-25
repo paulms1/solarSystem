@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="./animations.css"/>
+</head>
+<body>
+    <svg width="800" height="800" style="background-color:RGB(0,0,0);">
+        <defs>
+            <radialGradient id="starGradient">
+                <stop offset="0%" stop-color="RGB(255,255,255)" />
+                <stop offset="100%" stop-color="RGB(0,0,0)" />
+            </radialGradient>
+            <radialGradient id="myGradient">
+                <stop offset="35%" stop-color="RGB(255,211,0)" />
+                <stop offset="100%" stop-color="RGB(0,0,0)" />
+            </radialGradient>
+            <linearGradient id="lineGradient7" gradientTransform="rotate(120)">
+                <stop offset="0%"  stop-color="RGB(50,220,100)" />
+                <stop offset="95%" stop-color="RGB(0,0,0)" />
+            </linearGradient>
+            <linearGradient id="lineGradient6" gradientTransform="rotate(90)">
+                <stop offset="0%"  stop-color="RGB(30,60,40)" />
+                <stop offset="50%" stop-color="RGB(90,170,140)" />
+                <stop offset="65%" stop-color="RGB(120,200,170)" />
+            </linearGradient>
+            <linearGradient id="lineGradient5" gradientTransform="rotate(-25)">
+                <stop offset="0%"  stop-color="RGB(218,165,35)" />
+                <stop offset="35%"  stop-color="RGB(220,130,45)" />
+                <stop offset="60%" stop-color="RGB(90,60,40)" />
+            </linearGradient>
+            <linearGradient id="lineGradient4" gradientTransform="rotate(20)">
+                <stop offset="0%"  stop-color="RGB(220,20,190)" />
+                <stop offset="30%"  stop-color="RGB(210,10,180)" />
+                <stop offset="90%" stop-color="RGB(90,60,70)" />
+            </linearGradient>
+            <linearGradient id="lineGradient3" gradientTransform="rotate(35)">
+                <stop offset="0%"  stop-color="RGB(60,90,60)" />
+                <stop offset="60%"  stop-color="RGB(170,00,15)" />
+                <stop offset="70%"  stop-color="RGB(200,30,45)" />
+                <stop offset="90%" stop-color="RGB(200,30,45)" />
+            </linearGradient>
+            <linearGradient id="lineGradient2" gradientTransform="rotate(60)">
+                <stop offset="0%"  stop-color="RGB(10,200,245)" />
+                <stop offset="30%"  stop-color="RGB(10,200,245)" />
+                <stop offset="40%"  stop-color="RGB(10,170,215)" />
+                <stop offset="90%" stop-color="RGB(60,90,60)" />
+            </linearGradient>
+        </defs>
+        <circle style="stroke:RGB(255,255,255); stroke-width: 1;"  r="220" cx="400" cy="400"/>
+        <circle style="stroke:RGB(255,255,255); stroke-width: 1;"  r="180" cx="400" cy="400"/>
+        <circle style="stroke:RGB(255,255,255); stroke-width: 1;"  r="160" cx="400" cy="400"/>
+        <circle style="stroke:RGB(255,255,255); stroke-width: 1;"  r="130" cx="400" cy="400"/>
+        <circle style="stroke:RGB(255,255,255); stroke-width: 1;"  r="100" cx="400" cy="400"/>
+        <circle style="stroke:RGB(255,255,255); stroke-width: 1;"  r="80" cx="400" cy="400"/>
+        <circle style="stroke:RGB(255,255,255); stroke-width: 1; fill:url('#myGradient')" r="60" cx="400" cy="400"/>
+        <circle class="rotation7" style="fill:RGB(50,220,100); fill:url('#lineGradient7')"  r="30" cx="310" cy="600"/>
+        <circle class="rotation6" style="fill:RGB(120,200,170); fill:url('#lineGradient6')"  r="14" cx="400" cy="220"/>
+        <circle class="rotation5" style="fill:RGB(220,130,45); fill:url('#lineGradient5')"  r="15" cx="544" cy="333"/>
+        <circle class="rotation4" style="fill:RGB(220,20,190); fill:url('#lineGradient4')"  r="19" cx="522" cy="443"/>
+        <circle class="rotation3" style="fill:RGB(200,30,45); fill:url('#lineGradient3')"  r="10" cx="325" cy="333"/>
+        <circle class="rotation2" style="fill:RGB(10,200,245); fill:url('#lineGradient2')"  r="10" cx="440" cy="467"/>
+        <circle class="rotation" style="fill:RGB(222,178,245);"  r="5" cx="410" cy="459"/>
+        <circle style="fill:RGB(255,211,0)" r="40" cx="400" cy="400"/>
+        <circle style="fill:RGB(255,255,255); fill:url('#starGradient')" r="4" cx="600" cy="600"/>
+        <circle style="fill:RGB(255,255,255); fill:url('#starGradient')" r="3" cx="100" cy="500"/>
+        <circle class="twinkle2"style="fill:RGB(255,255,255); fill:url('#starGradient')" r="4" cx="250" cy="80"/>
+        <circle style="fill:RGB(255,255,255); fill:url('#starGradient')" r="2" cx="750" cy="200"/>
+        <circle style="fill:RGB(255,255,255); fill:url('#starGradient')" r="2" cx="550" cy="420"/>
+        <circle style="fill:RGB(255,255,255); fill:url('#starGradient')" r="2" cx="350" cy="320"/>
+        <circle style="fill:RGB(255,255,255); fill:url('#starGradient')" r="2" cx="160" cy="220"/>
+        <circle class="twinkle" style="fill:RGB(255,255,255); fill:url('#starGradient')" r="2" cx="660" cy="220"/>
+        <circle style="fill:RGB(255,255,255); fill:url('#starGradient')" r="5" cx="560" cy="120"/>
+        <circle class="twinkle2" style="fill:RGB(255,255,255); fill:url('#starGradient')" r="5" cx="250" cy="420"/>
+        <circle class="twinkle" style="fill:RGB(255,255,255); fill:url('#starGradient')" r="6" cx="260" cy="720"/>
+        <circle class="shoot" style="fill:RGB(255,255,255); fill:url('#starGradient')" r="5" cx="660" cy="700"/>
+        <circle style="fill:RGB(255,255,255); fill:url('#starGradient')" r="2" cx="60" cy="720"/>
+    </svg>
+</body>
+</html>

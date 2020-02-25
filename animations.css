@@ -1,0 +1,67 @@
+@keyframes rotate{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes twinkleTwinkle {
+    from {
+        r:.6%;
+    }
+    to {
+        r:0%;
+    }
+}
+
+
+.rotation {
+    transform-origin: center;
+    animation: rotate 5s linear infinite;
+}
+
+.rotation2 {
+    transform-origin: center;
+    animation: rotate 4s linear infinite;
+}
+.rotation3 {
+    transform-origin: center;
+    animation: rotate 6s linear infinite;
+}
+
+.rotation4 {
+    transform-origin: center;
+    animation: rotate 8s linear infinite;
+}
+
+.rotation5 {
+    transform-origin: center;
+    animation: rotate 6s linear infinite;
+}
+
+.rotation6 {
+    transform-origin: center;
+    animation: rotate 11s linear infinite;
+}
+
+.rotation7 {
+    transform-origin: center;
+    animation: rotate 15s linear infinite;
+}
+
+.shoot {
+    transform: scale(0);
+    transition: transform 5s;
+}
+
+.twinkle {
+     animation: twinkleTwinkle 1s linear infinite;
+ }
+
+.twinkle2 {
+    animation: twinkleTwinkle 1s linear infinite;
+    animation-delay: 3.5s;
+}
+
